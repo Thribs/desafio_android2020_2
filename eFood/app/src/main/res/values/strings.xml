@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">eFood</string>
+    <string name="desc_splash">Various dishes distributed on a table</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="or">Or</string>
+    <string name="label_sign_up">Sign up</string>
+    <string name="required">This field is required</string>
+    <string name="label_name">Name</string>
+    <string name="label_email">E-mail</string>
+    <string name="label_password">Password</string>
+    <string name="label_password_repeat">Confirm your password</string>
+    <string name="login_success">You\'re now logged in</string>
+    <string name="signup_sucess">You\'re now signed up. Welcome!</string>
+</resources>
