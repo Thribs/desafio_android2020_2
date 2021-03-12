@@ -12,4 +12,11 @@
     <string name="label_password_repeat">Confirm your password</string>
     <string name="login_success">You\'re now logged in</string>
     <string name="signup_sucess">You\'re now signed up. Welcome!</string>
+    <string name="password_unmatched">Passwords don\'t match</string>
+    <string name="dummy_restaurant_title">Tony Roma\'s</string>
+    <string name="dummy_address">Av. Lavandisca, 717 - Indianópolis, São Paulo</string>
+    <string name="dummy_closing_hours">Closes at 10 PM</string>
+    <string name="content_restaurant_image">Restaurant media</string>
+    <string name="main_dishes">Main dishes</string>
+    <string name="dummy_dish_title">Ginger sauce salad</string>
 </resources>

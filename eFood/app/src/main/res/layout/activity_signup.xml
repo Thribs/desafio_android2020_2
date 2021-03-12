@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
             app:errorEnabled="true"
-            app:endIconMode="clear_text"
+            app:passwordToggleEnabled="true"
             android:hint="@string/label_password">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/signup_password_edit_text"
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
             app:errorEnabled="true"
-            app:endIconMode="clear_text"
+            app:passwordToggleEnabled="true"
             android:hint="@string/label_password_repeat">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/signup_password_repeat_edit_text"
