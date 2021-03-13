@@ -26,6 +26,8 @@ class DishesAdapter(private val dishesList: MutableList<Dish>, private val activ
         holder.itemView.setOnClickListener() {
             val intent = Intent(activity, DishDetailActivity::class.java).apply {
                 putExtra("name",dish.name)
+                putExtra("id", dish.id)
+                putExtra("imageID", dish.imageID)
                 putExtra("description", dish.description)
             }
             activity.startActivity(intent)

@@ -5,5 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DishDetailActivity">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/dish_detail_back_button"
+        style="@style/Theme.EFood.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/back"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:borderWidth="0dp"
+        app:tint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/dish_detail_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/aoyama_moema_ginger_salad"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/content_restaurant_image"/>
+    <TextView
+        android:id="@+id/dish_detail_restaurant_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        tools:text="@string/dummy_dish_title"
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/dish_detail_image_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/dish_detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        tools:text="@string/dummy_dish_description"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        app:layout_constraintTop_toBottomOf="@id/dish_detail_image_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

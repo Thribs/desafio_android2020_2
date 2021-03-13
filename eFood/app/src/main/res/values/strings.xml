@@ -19,4 +19,6 @@
     <string name="content_restaurant_image">Restaurant media</string>
     <string name="main_dishes">Main dishes</string>
     <string name="dummy_dish_title">Ginger sauce salad</string>
+    <string name="back">Back</string>
+    <string name="dummy_dish_description">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusant doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis.</string>
 </resources>

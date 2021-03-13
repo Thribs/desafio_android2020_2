@@ -11,5 +11,6 @@
     <style name="Theme.EFood.FloatingActionButton" parent="">
         <item name="android:backgroundTint">#00000000</item>
         <item name="android:layout_margin">16dp</item>
+
     </style>
 </resources>
