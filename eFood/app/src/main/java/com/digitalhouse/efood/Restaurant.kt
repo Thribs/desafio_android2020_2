@@ -7,3 +7,5 @@ data class Restaurant(val title: String, val id: Int) {
     var address: String = ""
     var closingHours: String = ""
 }
+
+val tonyRomasRestaurant = Restaurant("Tony Roma's", 1)
